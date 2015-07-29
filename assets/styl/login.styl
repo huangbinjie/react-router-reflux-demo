@@ -1,0 +1,48 @@
+@import 'nib';
+@import './common.styl';
+@import './vendor.styl';
+
+.login {
+  width: 100%;
+  height: 100%;
+  image: '/images/login/loginBanner.jpg' no-repeat center;
+  background-size: cover;
+}
+
+.login > form
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 360px
+  height: 200px
+  padding: 20px
+  font-size 12px
+  transform-translate -50%,-50%
+  background: rgba(39,39,39,.7)
+  border-radius 8px
+  box-sizing: border-box
+
+.login .form-container {
+  width: 100%
+  height: 100%
+  padding: 20px
+  text-align center
+  background: #fff
+  box-sizing: border-box
+}
+
+.login .row {
+  display inline-block
+  padding 10px
+  margin: 0 auto
+  text-align: right
+}
+
+.login .row input
+  width 173px
+  height 19px
+  outline none
+  line-height 1
+  text-indent 5px
+  font inherit
+  border 1px solid #d9d9d9

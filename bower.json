@@ -1,0 +1,15 @@
+{
+  "name": "lijigou",
+  "version": "0.0.0",
+  "authors": [
+    "黄斌杰 <binjie.huang@shuyun.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
